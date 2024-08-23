@@ -1,0 +1,91 @@
+body {
+    background-color: rgb(169, 169, 169);
+    color: orangered;
+}
+
+.btnContainer {
+    display: grid;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-danger {
+    margin-top: 10px;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+#introPara {
+    font-size: 16px;
+    font-weight: 700;
+}
+
+#profilePic {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul li {
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+ul li img:hover {
+    padding: 12px;
+}
+
+.card-body {
+    box-sizing: border-box;
+    box-shadow: 0px 0px 10px rgba(255, 255, 255, 0.2);
+}
+
+.changeModes {
+    background-color: #242526;
+    color: #000;
+    transition: 1s ease-in;
+}
+
+.cardbodyChanger {
+    background-color: #000;
+    color: skyblue;
+    font-weight: 500;
+}
+
+#skillset {
+    /* animation-duration: 4s;
+    animation-name: blinks; */
+    animation: blinks 4s infinite ease-in;
+}
+
+#skillsettwo {
+    /* animation-duration: 4s;
+    animation-name: blinks; */
+    animation: blinks 4s infinite ease-in;
+}
+
+@keyframes blinks {
+    25% {
+        color: tomato;
+    }
+    50% {
+        color: blue;
+    }
+    75% {
+        color: red;
+    }
+    100% {
+        color: darkgray;
+    }
+}
